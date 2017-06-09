@@ -153,7 +153,7 @@ class DocsCLI < Thor
     assert_docs(docs)
     docs.each do |doc|
       puts "Syncing #{doc.path}..."
-      cmd = "aws s3 sync #{File.join(Docs.store_path, doc.path)} s3://docs.devdocs.io/#{doc.path} --delete"
+      cmd = "aws s3 sync #{File.join(Docs.store_path, doc.path)} s3://docs.devdocs.eu/#{doc.path} --delete"
       cmd << ' --dryrun' if options[:dryrun]
       system(cmd)
     end
@@ -232,7 +232,7 @@ class DocsCLI < Thor
 
   def download_doc(doc)
     target_path = File.join(Docs.store_path, doc.path)
-    open "http://dl.devdocs.io/#{doc.path}.tar.gz" do |file|
+    open "http://dl.devdocs.eu/#{doc.path}.tar.gz" do |file|
       FileUtils.mkpath(target_path)
       file.close
       tar = UnixUtils.gunzip(file.path)

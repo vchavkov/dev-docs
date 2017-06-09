@@ -1,4 +1,4 @@
-# [DevDocs](http://devdocs.io) [![Build Status](https://travis-ci.org/Thibaut/devdocs.svg?branch=master)](https://travis-ci.org/Thibaut/devdocs)
+# [DevDocs](http://devdocs.eu) [![Build Status](https://travis-ci.org/Thibaut/devdocs.svg?branch=master)](https://travis-ci.org/Thibaut/devdocs)
 
 DevDocs combines multiple API documentations in a fast, organized, and searchable interface.
 
@@ -16,7 +16,7 @@ DevDocs is free and open source. If you like it, please consider supporting my w
 
 ## Quick Start
 
-Unless you wish to contribute to the project, I recommend using the hosted version at [devdocs.io](http://devdocs.io). It's up-to-date and works offline out-of-the-box.
+Unless you wish to contribute to the project, I recommend using the hosted version at [devdocs.eu](http://devdocs.eu). It's up-to-date and works offline out-of-the-box.
 
 DevDocs is made of two pieces: a Ruby scraper that generates the documentation and metadata, and a JavaScript app powered by a small Sinatra app.
 

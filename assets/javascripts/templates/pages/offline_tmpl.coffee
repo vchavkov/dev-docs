@@ -42,9 +42,9 @@ app.templates.offlinePage = (docs) -> """
 
 canICloseTheTab = ->
   if app.AppCache.isEnabled()
-    """ Yes! Even offline, you can open a new tab, go to <a href="//devdocs.io">devdocs.io</a>, and everything will work as if you were online (provided you installed all the documentations you want to use beforehand). """
+    """ Yes! Even offline, you can open a new tab, go to <a href="//devdocs.eu">devdocs.eu</a>, and everything will work as if you were online (provided you installed all the documentations you want to use beforehand). """
   else
-    """ No. AppCache isn't available in your browser (or is disabled), so loading <a href="//devdocs.io">devdocs.io</a> offline won't work.<br>
+    """ No. AppCache isn't available in your browser (or is disabled), so loading <a href="//devdocs.eu">devdocs.eu</a> offline won't work.<br>
         The current tab will continue to function even when you go offline (provided you installed all the documentations beforehand). """
 
 app.templates.offlineDoc = (doc, status) ->

@@ -54,14 +54,14 @@ app.templates.aboutPage = -> """
     <dt>Where can I report bugs?
     <dd>In the <a href="https://github.com/Thibaut/devdocs/issues">issue tracker</a>. Thanks!
   </dl>
-  <p>For anything else, feel free to email me at <a href="mailto:thibaut@devdocs.io">thibaut@devdocs.io</a>.
+  <p>For anything else, feel free to email me at <a href="mailto:thibaut@devdocs.eu">thibaut@devdocs.eu</a>.
 
   <h2 class="_block-heading" id="credits">Credits</h2>
 
   <p><strong>Special thanks to:</strong>
   <ul>
-    <li><a href="http://out.devdocs.io/s/maxcdn">MaxCDN</a> and <a href="http://get.gaug.es/?utm_source=devdocs&utm_medium=referral&utm_campaign=sponsorships" title="Real Time Web Analytics">Gauges</a> for offering a free account to DevDocs
-    <li><a href="http://out.devdocs.io/s/maxcdn">MaxCDN</a>, <a href="http://out.devdocs.io/s/shopify">Shopify</a>, <a href="http://out.devdocs.io/s/jetbrains">JetBrains</a> and <a href="http://out.devdocs.io/s/code-school">Code School</a> for sponsoring DevDocs in the past
+    <li><a href="http://out.devdocs.eu/s/maxcdn">MaxCDN</a> and <a href="http://get.gaug.es/?utm_source=devdocs&utm_medium=referral&utm_campaign=sponsorships" title="Real Time Web Analytics">Gauges</a> for offering a free account to DevDocs
+    <li><a href="http://out.devdocs.eu/s/maxcdn">MaxCDN</a>, <a href="http://out.devdocs.eu/s/shopify">Shopify</a>, <a href="http://out.devdocs.eu/s/jetbrains">JetBrains</a> and <a href="http://out.devdocs.eu/s/code-school">Code School</a> for sponsoring DevDocs in the past
     <li><a href="https://www.heroku.com">Heroku</a> and <a href="http://newrelic.com">New Relic</a> for providing awesome free service
     <li>Daniel Bruce for the <a href="http://www.entypo.com">Entypo</a> pictograms
     <li><a href="http://www.jeremykratz.com/">Jeremy Kratz</a> for the C/C++ logo
@@ -79,12 +79,12 @@ app.templates.aboutPage = -> """
 
   <h2 class="_block-heading" id="privacy">Privacy Policy</h2>
   <ul>
-    <li><a href="http://devdocs.io">devdocs.io</a> ("App") is operated by Thibaut Courouble ("We").
+    <li><a href="http://devdocs.eu">devdocs.eu</a> ("App") is operated by Thibaut Courouble ("We").
     <li>We do not collect personal information.
     <li>We use Google Analytics, Gauges and Sentry to collect anonymous traffic information and improve the app.
     <li>The app uses cookies to store user preferences.
     <li>By using the app, you signify your acceptance of this policy. If you do not agree to this policy, please do not use the app.
-    <li>If you have any questions regarding privacy, please email <a href="mailto:thibaut@devdocs.io">thibaut@devdocs.io</a>.
+    <li>If you have any questions regarding privacy, please email <a href="mailto:thibaut@devdocs.eu">thibaut@devdocs.eu</a>.
   </ul>
 """
 

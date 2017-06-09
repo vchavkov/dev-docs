@@ -28,15 +28,15 @@ app.templates.helpPage = """
       To clear the current scope, empty the search field and hit <code class="_label">Backspace</code>.
     <dt id="url_search">Prefilling the search field
     <dd>
-      The search field can be prefilled from the URL by visiting <a href="/#q=keyword" target="_top">devdocs.io/#q=keyword</a>.
+      The search field can be prefilled from the URL by visiting <a href="/#q=keyword" target="_top">devdocs.eu/#q=keyword</a>.
       Characters after <code class="_label">#q=</code> will be used as search query.<br>
       To search a single documentation, add its name and a space before the keyword:
-      <a href="/#q=js%20date" target="_top">devdocs.io/#q=js date</a>.
+      <a href="/#q=js%20date" target="_top">devdocs.eu/#q=js date</a>.
     <dt id="browser_search">Searching using the address bar
     <dd>
       DevDocs supports OpenSearch. It can easily be installed as a search engine on most web browsers:
       <ul>
-        <li>On Chrome, the setup is done automatically. Simply press <code class="_label">Tab</code> when devdocs.io is autocompleted
+        <li>On Chrome, the setup is done automatically. Simply press <code class="_label">Tab</code> when devdocs.eu is autocompleted
             in the omnibox (to set a custom keyword, click <em>Manage search engines\u2026</em> in Chrome's settings).
         <li>On Firefox, open the search engine list (icon in the search bar) and click <em>Add "DevDocs Search"</em>.
             DevDocs is now available in the search bar. You can also search from the location bar by following

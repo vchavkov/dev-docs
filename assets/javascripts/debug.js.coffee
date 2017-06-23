@@ -18,6 +18,7 @@ app.start = ->
   _start.call(app, arguments...)
   console.timeEnd 'Start'
 
+
 #
 # Searcher
 #
@@ -83,3 +84,5 @@ app.Searcher.prototype = _proto
     else if value.constructor.toString().match(/Object\(\)/)
       @viewTree(v, level + 1, visited) for own k, v of value when v and typeof v is 'object' and v.setupElement
   return
+
+#= require tracking
